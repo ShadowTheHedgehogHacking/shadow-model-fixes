@@ -1,0 +1,21 @@
+### Extraction of Game / FST Format
+1. Open Dolphin
+2. Right-click Shadow The Hedgehog in the game list
+3. Select Properties
+4. Select FileSystem Tab
+5. Right-click "Disc"
+6. Select Extract Entire Disc...
+7. Select a new folder where you will store the game content and modify its files
+
+### Replacement of Files & Converting FST to ISO
+1. Open the newly extracted folder and merge/overwrite the `files` with this mod's `files` folder.
+2. Open Dolphin
+3. Open Config (next to Graphics and Controllers)
+4. Select Paths Tab
+5. Select "Add" for Game Folders
+6. Navigate to the folder where you extracted the game
+7. Open the `sys` folder, and select "Select Folder"
+8. Close the confirmation pane, your games list should populate a new 0 filesize game of Shadow The Hedgehog. The 0 filesize entry is the FST format game.
+9. Right click the FST format game and pick `Convert File...`
+10. The Convert window will appear, click "Convert..." and name it `MyModdedIso.iso`
+12. Move/Save the ISO to the Path Dolphin detects your games. Use this when playing the game or the extracted game folder. 
